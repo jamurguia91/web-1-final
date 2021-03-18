@@ -1,0 +1,386 @@
+/* get fonts */
+@import url
+("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url
+("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url ("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url
+(
+  "https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Montserrat&display=swap"
+);
+
+/* Define typefaces */
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48pt;
+  font-weight: 300;
+  padding: 5px;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48pt;
+  font-weight: 300;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24pt;
+  font-weight: 400;
+  padding: 15px;
+}
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28pt;
+  font-weight: 400;
+  padding: 15px;
+  color: #3b125b;
+}
+p {
+  font-family: "Chivo", sans-serif;
+  font-size: 16pt;
+  font-weight: 300;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: #3b125b;
+}
+
+/* Lets define some sections */
+html {
+  scroll-behavior: smooth;
+}
+header {
+  background-color: #e5d5ec;
+}
+body {
+  background-color: #fcfaff;
+  width: 100%;
+  margin: 0;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 18px;
+}
+nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  justify-content: space-between;
+}
+nav ul li {
+  text-align: center;
+  box-shadow: 2px 2px 4px #3b125b;
+  width: 250px;
+  padding: 1.25em 0;
+  margin: 20px;
+}
+li a {
+  color: #3b125b;
+  text-decoration: none;
+  font-family: "Chivo", sans-serif;
+  font-weight: 300;
+  font-size: 1.7em;
+}
+li :hover {
+  color: white;
+  font-size: 1.8em;
+  width: 200%;
+  height: 150%;
+  transition: all 225ms ease-in-out 30ms;
+  cursor: pointer;
+}
+#bio-banner {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  background-color: #3b125b;
+}
+.bio2 {
+  display: flex;
+  align-content: space-around;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding: 4em;
+}
+.bio-text {
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+#works-created-banner {
+  background-color: #3b125b;
+  color: white;
+  width: 100%;
+  height: 7em;
+  text-align: center;
+  line-height: 7em;
+}
+.works-created-pics {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#services-banner {
+  background-color: #3b125b;
+  color: white;
+  text-align: center;
+  height: 7em;
+  line-height: 7em;
+}
+.services1 {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center;
+  padding: 2em;
+  margin: 3em;
+}
+#contact-banner {
+  background-color: #3b125b;
+  color: white;
+  text-align: center;
+  height: 7em;
+  line-height: 7em;
+}
+.contact1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2em;
+}
+
+/* altering sizes of images */
+.landscape1 {
+  height: 20em;
+  width: 100%;
+  object-fit: cover;
+}
+.bio-pic {
+  width: 28em;
+  height: 28em;
+  border: 3px solid rgba(59, 18, 91, 0.3);
+  padding: 2px;
+  object-fit: cover;
+}
+.logo1 {
+  width: 15.5em;
+  height: 6.5em;
+  padding: 4px;
+}
+.logo2 {
+  width: 15em;
+  height: 9em;
+}
+.work1 {
+  max-width: 15em;
+  max-height: 15em;
+  border: 3px solid rgba(59, 18, 91, 0.3);
+  padding: 2px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1em;
+  object-fit: scale-down;
+}
+img {
+  width: 22em;
+  height: 32em;
+}
+.work2 {
+  max-width: 15em;
+  max-height: 15em;
+  border: 3px solid rgba(59, 18, 91, 0.3);
+  padding: 2px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1em;
+  object-fit: scale-down;
+}
+.work3 {
+  max-width: 15em;
+  max-height: 15em;
+  border: 3px solid rgba(59, 18, 91, 0.3);
+  padding: 2px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1em;
+  object-fit: scale-down;
+}
+.work4 {
+  max-width: 15em;
+  max-height: 15em;
+  border: 3px solid rgba(59, 18, 91, 0.3);
+  padding: 2px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1em;
+  object-fit: scale-down;
+}
+.work5 {
+  max-width: 15em;
+  max-height: 15em;
+  border: 3px solid rgba(59, 18, 91, 0.3);
+  padding: 2px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1em;
+  object-fit: scale-down;
+}
+.work6 {
+  max-width: 15em;
+  max-height: 15em;
+  border: 3px solid rgba(59, 18, 91, 0.3);
+  padding: 2px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1em;
+  object-fit: scale-down;
+}
+.work7 {
+  max-width: 15em;
+  max-height: 15em;
+  border: 3px solid rgba(59, 18, 91, 0.3);
+  padding: 2px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1em;
+  object-fit: scale-down;
+}
+.work8 {
+  max-width: 15em;
+  max-height: 15em;
+  border: 3px solid rgba(59, 18, 91, 0.3);
+  padding: 2px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1em;
+  object-fit: scale-down;
+}
+.work9 {
+  max-width: 15em;
+  max-height: 15em;
+  border: 3px solid rgba(59, 18, 91, 0.3);
+  padding: 2px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1em;
+  object-fit: scale-down;
+}
+/* adding the hover full size feature to works */
+.work1:hover {
+  transition: all 400ms ease-in-out 30ms;
+  transform: scale(1.5);
+}
+.work2:hover {
+  transition: all 400ms ease-in-out 30ms;
+  transform: scale(2.65);
+}
+.work3:hover {
+  transition: all 400ms ease-in-out 30ms;
+  transform: scale(2.65);
+}
+.work4:hover {
+  transition: all 400ms ease-in-out 30ms;
+  transform: scale(1.5);
+}
+.work5:hover {
+  transition: all 400ms ease-in-out 30ms;
+  transform: scale(1.5);
+}
+.work6:hover {
+  transition: all 400ms ease-in-out 30ms;
+  transform: scale(2.65);
+}
+.work7:hover {
+  transition: all 400ms ease-in-out 30ms;
+  transform: scale(2.65);
+}
+.work8:hover {
+  transition: all 400ms ease-in-out 30ms;
+  transform: scale(1.8);
+}
+.work9:hover {
+  transition: all 400ms ease-in-out 30ms;
+  transform: scale(1.9);
+}
+
+/* input media queries */
+@media screen and (max-width: 950px) {
+  nav {
+    display: none;
+  }
+  h1 {
+    font-size: 28pt;
+    margin: -1rem;
+  }
+  h2 {
+    font-size: 28pt;
+  }
+  h3 {
+    font-size: 14pt;
+    align-content: center;
+    margin: -1rem;
+  }
+  h4 {
+    margin: 0px;
+  }
+  p {
+    font-size: 12pt;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  #bio-banner {
+    display: flex;
+    flex-direction: column;
+    height: 10em;
+  }
+  .bio-text {
+    width: 120%;
+  }
+  .landscape1 {
+    height: 9em;
+    width: 100%;
+    object-fit: cover;
+  }
+  .work2 {
+    display: none;
+  }
+  .work3 {
+    display: none;
+  }
+  .work7 {
+    display: none;
+  }
+  .bio2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bio-pic {
+    width: 15em;
+    height: 19em;
+  }
+  .services1 {
+    line-height: 1.5rem;
+  }
+  .contact1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo2 {
+    height: 5rem;
+    width: 8rem;
+    padding: 2rem;
+  }
+}
