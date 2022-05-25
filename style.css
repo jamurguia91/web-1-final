@@ -183,7 +183,7 @@ li :hover {
   height: 15em;
   width: 100%;
   object-fit: cover;
-  filter: hue-rotate(270deg);
+  filter: hue-rotate(30deg);
 }
 .bio-pic {
   width: 28em;
