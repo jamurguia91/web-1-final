@@ -32,18 +32,23 @@ h4 {
   font-size: 28pt;
   font-weight: 400;
   padding: 15px;
-  color: #3b125b;
+  color: #ec4c56;
+/*   change here */
 }
 p {
   font-family: "Chivo", sans-serif;
   font-size: 16pt;
   font-weight: 300;
+  color: #f6f0e9;
+/*   change here */
 }
 a {
-  color: black;
+  color: #ec4c56;
+/*   change here */
 }
 a:hover {
-  color: #3b125b;
+  color: #f6f0e9;
+/*   change here */
 }
 
 /* Lets define some sections */
@@ -51,10 +56,12 @@ html {
   scroll-behavior: smooth;
 }
 header {
-  background-color: #e5d5ec;
+  background-color: #596172;
+/*   changed here */
 }
 body {
-  background-color: #fcfaff;
+  background-color: #242933;
+  /*   changed here */
   width: 100%;
   margin: 0;
 }
@@ -74,21 +81,25 @@ nav ul {
 }
 nav ul li {
   text-align: center;
-  box-shadow: 2px 2px 4px #3b125b;
+  box-shadow: 2px 2px 4px #242933;
+/*   change here */
   width: 250px;
   padding: 1.25em 0;
   margin: 20px;
 }
 li a {
-  color: #3b125b;
+  color: #242933;
+/*   change here */
   text-decoration: none;
   font-family: "Chivo", sans-serif;
   font-weight: 300;
   font-size: 1.7em;
 }
 li :hover {
-  color: white;
-  font-size: 1.8em;
+  color: #ec4c56;
+/*   change here */
+  font-size: 1.7em;
+  /*   change here */
   width: 200%;
   height: 150%;
   transition: all 225ms ease-in-out 30ms;
@@ -99,8 +110,10 @@ li :hover {
   width: 100%;
   align-items: center;
   justify-content: space-around;
-  color: white;
-  background-color: #3b125b;
+  color: #242933;
+  /*   change here */
+  background-color: #ec4c56;
+/*   change here */
 }
 .bio2 {
   display: flex;
@@ -116,8 +129,10 @@ li :hover {
   padding-bottom: 12px;
 }
 #works-created-banner {
-  background-color: #3b125b;
-  color: white;
+  background-color: #ec4c56;
+/*   change here */
+  color: #242933;
+/*   change here */
   width: 100%;
   height: 7em;
   text-align: center;
@@ -131,8 +146,10 @@ li :hover {
   align-items: center;
 }
 #services-banner {
-  background-color: #3b125b;
-  color: white;
+  background-color: #ec4c56;
+/*   change here */
+  color: #242933;
+/*   change here */
   text-align: center;
   height: 7em;
   line-height: 7em;
@@ -146,8 +163,10 @@ li :hover {
   margin: 3em;
 }
 #contact-banner {
-  background-color: #3b125b;
-  color: white;
+  background-color: #ec4c56;
+/*   change here */
+  color: #242933;
+/*   change here */
   text-align: center;
   height: 7em;
   line-height: 7em;
@@ -161,16 +180,21 @@ li :hover {
 
 /* altering sizes of images */
 .landscape1 {
-  height: 20em;
+  height: 15em;
   width: 100%;
   object-fit: cover;
+  filter: hue-rotate(270deg);
 }
 .bio-pic {
   width: 28em;
   height: 28em;
-  border: 3px solid rgba(59, 18, 91, 0.3);
+  /*border: 3px solid rgba(59, 18, 91, 0.3);*/
   padding: 2px;
   object-fit: cover;
+filter: grayscale(90%);
+  
+/*   see what the border do  */
+/*   also add the grey scale filter to new image  */
 }
 .logo1 {
   width: 15.5em;
@@ -184,7 +208,7 @@ li :hover {
 .work1 {
   max-width: 15em;
   max-height: 15em;
-  border: 3px solid rgba(59, 18, 91, 0.3);
+  /*border: 3px solid rgba(59, 18, 91, 0.3);*/
   padding: 2px;
   margin-left: 2em;
   margin-right: 2em;
@@ -198,7 +222,7 @@ img {
 .work2 {
   max-width: 15em;
   max-height: 15em;
-  border: 3px solid rgba(59, 18, 91, 0.3);
+  /*border: 3px solid rgba(59, 18, 91, 0.3);*/
   padding: 2px;
   margin-left: 2em;
   margin-right: 2em;
@@ -208,7 +232,7 @@ img {
 .work3 {
   max-width: 15em;
   max-height: 15em;
-  border: 3px solid rgba(59, 18, 91, 0.3);
+  /*border: 3px solid rgba(59, 18, 91, 0.3);*/
   padding: 2px;
   margin-left: 2em;
   margin-right: 2em;
@@ -218,7 +242,7 @@ img {
 .work4 {
   max-width: 15em;
   max-height: 15em;
-  border: 3px solid rgba(59, 18, 91, 0.3);
+  /*border: 3px solid rgba(59, 18, 91, 0.3);*/
   padding: 2px;
   margin-left: 2em;
   margin-right: 2em;
@@ -228,7 +252,7 @@ img {
 .work5 {
   max-width: 15em;
   max-height: 15em;
-  border: 3px solid rgba(59, 18, 91, 0.3);
+  /*border: 3px solid rgba(59, 18, 91, 0.3);*/
   padding: 2px;
   margin-left: 2em;
   margin-right: 2em;
@@ -238,7 +262,7 @@ img {
 .work6 {
   max-width: 15em;
   max-height: 15em;
-  border: 3px solid rgba(59, 18, 91, 0.3);
+  /*border: 3px solid rgba(59, 18, 91, 0.3);*/
   padding: 2px;
   margin-left: 2em;
   margin-right: 2em;
@@ -248,7 +272,7 @@ img {
 .work7 {
   max-width: 15em;
   max-height: 15em;
-  border: 3px solid rgba(59, 18, 91, 0.3);
+  /*border: 3px solid rgba(59, 18, 91, 0.3);*/
   padding: 2px;
   margin-left: 2em;
   margin-right: 2em;
@@ -258,7 +282,7 @@ img {
 .work8 {
   max-width: 15em;
   max-height: 15em;
-  border: 3px solid rgba(59, 18, 91, 0.3);
+  /*border: 3px solid rgba(59, 18, 91, 0.3);*/
   padding: 2px;
   margin-left: 2em;
   margin-right: 2em;
@@ -268,7 +292,7 @@ img {
 .work9 {
   max-width: 15em;
   max-height: 15em;
-  border: 3px solid rgba(59, 18, 91, 0.3);
+  /*border: 3px solid rgba(59, 18, 91, 0.3);*/
   padding: 2px;
   margin-left: 2em;
   margin-right: 2em;
